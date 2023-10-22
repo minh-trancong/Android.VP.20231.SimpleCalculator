@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Retro colors for app -->
+    <color name="retro_red">#FE0000</color>
+    <color name="retro_beige">#F4E0B9</color>
+    <color name="retro_grey1">#A8A196</color>
+    <color name="retro_brown">#7D7463</color>
+    <color name="retro_grey2">#D8D8D8</color>
 </resources>
