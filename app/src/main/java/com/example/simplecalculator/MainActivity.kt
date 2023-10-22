@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
         binding.btnDiv.setOnClickListener { onOperatorClick("/") }
 
         binding.btnEqual.setOnClickListener { onEqualsClick() }
+
+        binding.btnCE.setOnClickListener { onClearEntryClick() }
+        binding.btnC.setOnClickListener { onClearClick() }
+        binding.btnBS.setOnClickListener { onBackspaceClick() }
     }
 
     private fun onNumberClick(number: Int) {
@@ -48,5 +52,19 @@ class MainActivity : AppCompatActivity() {
         val result = calculatorLogic.calculateResult()
         // Display the result
         binding.primaryTv.text = result.toString()
+    }
+    private fun onClearEntryClick() {
+        calculatorLogic.clearEntry()
+        binding.primaryTv.text = calculatorLogic.getCurrentOperand().toString()
+    }
+
+    private fun onClearClick() {
+        calculatorLogic.clear()
+        binding.primaryTv.text = calculatorLogic.getCurrentOperand().toString()
+    }
+
+    private fun onBackspaceClick() {
+        calculatorLogic.backspace()
+        binding.primaryTv.text = calculatorLogic.getCurrentOperand().toString()
     }
 }

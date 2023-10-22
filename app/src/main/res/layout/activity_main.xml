@@ -60,7 +60,7 @@
                 android:orientation="horizontal"
                 >
                 <Button
-                    android:id="@+id/btn_sq"
+                    android:id="@+id/btn_CE"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -74,7 +74,7 @@
                     style="?android:attr/buttonBarButtonStyle"
                     tools:ignore="NestedWeights,VisualLintButtonSize" />
                 <Button
-                    android:id="@+id/btn_sqrt"
+                    android:id="@+id/btn_C"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
@@ -88,7 +88,7 @@
                     style="?android:attr/buttonBarButtonStyle"
                     tools:ignore="VisualLintButtonSize" />
                 <Button
-                    android:id="@+id/btn_inv"
+                    android:id="@+id/btn_BS"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="3dp"
