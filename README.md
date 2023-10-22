@@ -1,7 +1,7 @@
 # Android.VP.20231.SimpleCalculator1
 Android App - Simple Calculator
 
-![video_demo](./simple-calculator-demo-v1.webm)
+![video_demo](./simple-calculator-demo-v1.mp4)
 
 ### **Bài 1. Lập trình ứng dụng SimpleCalculator với các yêu cầu sau:**
 
