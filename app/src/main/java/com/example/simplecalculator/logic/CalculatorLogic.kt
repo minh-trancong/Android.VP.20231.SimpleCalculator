@@ -33,4 +33,29 @@ object CalculatorLogic {
         operand2 = 0
         return result
     }
+
+    // Clear Entry - Xóa toán hạng hiện tại về 0
+    fun clearEntry() {
+        if (operator.isEmpty()) {
+            operand1 = 0
+        } else {
+            operand2 = 0
+        }
+    }
+
+    // Clear - Xóa phép tính
+    fun clear() {
+        operand1 = 0
+        operand2 = 0
+        operator = ""
+    }
+
+    // Backspace - Xóa chữ số hàng đơn vị của toán hạng hiện tại (nếu còn 1 chữ số thì xóa về 0)
+    fun backspace() {
+        if (operator.isEmpty()) {
+            operand1 /= 10
+        } else {
+            operand2 /= 10
+        }
+    }
 }
